@@ -33,10 +33,11 @@ Apache and put the SURFsara configuration in the right location. We provide a
 helper script that will do this automatically:
 
     git clone --depth 1 https://github.com/sara-nl/hathi-client
-    /path/to/hathi-client/bin/get.sh hadoop
-    /path/to/hathi-client/bin/get.sh pig
-    /path/to/hathi-client/bin/get.sh spark
-
+    cd hathi-client
+    ./bin/get.sh hadoop
+    ./bin/get.sh pig
+    ./bin/get.sh spark
+    
 Whenever you want to use the cluster you need to perform the following once per
 session.
 
